@@ -139,12 +139,12 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-#label_login {
+#label1, #label2{
     display: block;
     margin-top: 10px;
 }
 
-#input_login {
+#input_nombre,#input_contrasenia {
     width: 100%;
     padding: 10px;
     margin-top: 5px;

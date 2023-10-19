@@ -1,9 +1,7 @@
-document.getElementById("enviarBoton").addEventListener('click', function(){
-    // Obtener los valores de los campos de entrada
-    var nombre = document.getElementById("nombre").value;
-    var correo = document.getElementById("correo").value;
+document.getElementById("botton_login").addEventListener('click',function(){
+    var nombre = document.getElementById("input_nombre").value;
+    var contrasenia = document.getElementById("input_contrasenia").value;
 
-    // Mostrar los valores en la consola
-    console.log("Nombre: " + nombre);
-    console.log("Correo electrónico: " + correo);
-})
+    console.log(nombre)
+    console.log(contrasenia)
+});
