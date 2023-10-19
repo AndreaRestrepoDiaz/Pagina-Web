@@ -6,9 +6,9 @@ body {
 }
 
 header {
-    background-color: #043c91;
+    background-color: #ffcde3;
     color: #ffffff;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +32,7 @@ header nav ul li {
 
 header nav a {
     text-decoration: none;
-    color: #fffcfc;
+    color: #000000;
 }
 
 .contenido {
@@ -94,8 +94,8 @@ header nav a {
 }
 
 footer {
-    background-color: #043c91;
-    color: #ffffff;
+    background-color: #ffcde3;
+    color: #000000;
     text-align: center;
     padding: 10px;
 }
