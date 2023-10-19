@@ -76,11 +76,11 @@ header nav a {
 }
 
 .noticias ul {
-    list-style: disc;
-    margin-left: 50px;
+        width: 50%;
 }
 
 .noticias {
+    display: flex; justify-content: space-evenly; flex-wrap: nowrap;
     background-color: #fff;
     padding: 20px;
     margin: 20px;
@@ -120,4 +120,45 @@ footer {
 .texto1 p {
     margin-top: 20px;
     font-size: 16px;
+}
+#body_login{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+#formulario-container {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#label_login {
+    display: block;
+    margin-top: 10px;
+}
+
+#input_login {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#button_login {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
