@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Registro</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div><div id="nameInput">
+        <!-- ... contenido del campo de entrada aquí ... -->
+    </div>
+    </div>
+    <div class="container">
+        <div class="form-content">
+            <h1 id="title">Registro</h1>
+            <form id="registrationForm">
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="registerUsername" placeholder="Nombre">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="registerEmail" placeholder="Correo">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="registerPassword" placeholder="Contraseña">
+                    </div>
+                    <p>¿Ya tienes cuenta? <a href="#" id="loginLink">Inicia sesión</a></p>
+                </div>
+                <div class="btn-field">
+                    <button id="registerBtn" type="button">Registro</button>
+                </div>
+            </form>
+
+            <form id="loginForm" class="disable">
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="loginUsername" placeholder="Nombre">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="loginPassword" placeholder="Contraseña">
+                    </div>
+                    <p>¿No tienes cuenta? <a href="#" id="registerLink">Regístrate</a></p>
+                </div>
+                <div class="btn-field">
+                    <button id="loginBtn" type="button">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/register.js"></script>
+</body>
+</html>
+

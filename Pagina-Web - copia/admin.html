@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data tables</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.datatables.net/v/dt/dt-1.13.7/datatables.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/Estilos.css">
+</head>
+<body class="p-3 mb-2 text-white">
+    <header class="header opacity-75">
+    </header>
+    <div>
+     
+  </div>
+    <nav>
+        <ul class="orden">
+            <li class=""><a href="index.html" class="estiloli">Inicio</a></li>
+            <!-- link #- -->
+           
+            <li class=""><a href="inicio.html" class="estiloli">Login</a></li>
+            <!-- link #- -->
+          
+    </nav>
+    <div class="my-4 d-flex">
+        <a href="?t=users" class="btn btn-dark w-50"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16" style="margin-right: 15px;">
+            <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"/>
+          </svg>Tabla de usuarios</a>
+
+          <a href="?t=login_info" class="btn btn-dark w-50 space"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pass" viewBox="0 0 16 16" style="margin-right: 15px;">
+            <path d="M5.5 5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5Zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3Z"/>
+            <path d="M8 2a2 2 0 0 0 2-2h2.5A1.5 1.5 0 0 1 14 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-13A1.5 1.5 0 0 1 3.5 0H6a2 2 0 0 0 2 2Zm0 1a3.001 3.001 0 0 1-2.83-2H3.5a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-13a.5.5 0 0 0-.5-.5h-1.67A3.001 3.001 0 0 1 8 3Z"/>
+          </svg>Tabla de login</a>
+
+         
+
+      
+    </div>
+
+    <!--Acá se mostrará el contenido de las datatables-->
+    <div id="tableDiv" class="container text-white">
+    </div>
+    <br>
+    <br>
+    <script src="./js/jquery-3.7.1.min.js"></script><!--JavaScript para jQuery-->
+    <script src="https://cdn.datatables.net/v/dt/dt-1.13.7/datatables.min.js"></script><!--DataTables-->
+    <script src="./js/admin.js"></script><!--JavaScript local-->
+</body>
+</html>
